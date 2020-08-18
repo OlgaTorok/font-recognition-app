@@ -2,5 +2,3 @@
 
 The application is built using Daniel Shiffmans' videos on ML5 and the ML5 website.
 For the moment, the model only recognises between two fonts, FreeSans and Playfair Display.
-
-[Font Recognition Application GitHub Page](https://olgatorok.github.io/)
