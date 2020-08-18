@@ -1,0 +1,130 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e0dfdfbe;
+    color: #6d7581;
+}
+
+.nav .nav-link , a {
+    color: #6d7581;
+}
+
+.nav .nav-link.active {
+    background-color: #f08080 !important;
+    color: #f4f5f8;
+}
+
+/* Change the colour of the navbar bottom border */
+.nav-tabs {
+    border-bottom: 1px solid #f08080;
+}
+
+#root {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    /* font-family: system-ui; */
+    transition: visibility 2s, opacity 0.5s linear;
+}
+
+canvas {
+    display: block;
+    margin: 1em auto;
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.322);
+  /* border-radius: 1em; */
+}
+
+.loading {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 1em auto;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+button {
+    background-color: #f08080;
+    color: white;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding: .3em .5em;
+    padding-left: 0;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 1em .3em;
+    cursor: pointer;
+    border-radius: 1em;
+    transition: .4s ease;
+}
+
+#title {
+    color: #6d7581;
+    font-weight: 800;
+}
+
+
+/* -------------------- */
+/* Image predict page */
+/* -------------------- */
+
+
+#image {
+    max-height: 300px;
+    max-width: 220px;
+}
+
+#container {
+    height: 100%;
+    padding: 50px;
+    font-size: 14px;
+    display: block;
+}
+
+#text-container {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+#instruction {
+    margin-top: 20px;
+    color: #f08080;
+}
+
+.result-color {
+    color: #6d7581;
+}
+
+.label-color {
+    color: #6d7581;
+    font-weight: 800;
+}
+
+.salmon-color {
+    color: #f08080;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fileUploader {
+    opacity: 0;
+}
+
+#uploadBtn {
+    background-color: #f08080;
+    border: none;
+}
